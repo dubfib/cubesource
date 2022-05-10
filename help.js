@@ -1,5 +1,4 @@
 const { MessageEmbed } = require('discord.js');
-const fetch = require('node-fetch');
 
 module.exports = async function MessageCommand(client, message, args) {
     function cmd(name, url) {
