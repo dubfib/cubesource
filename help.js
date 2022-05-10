@@ -11,7 +11,7 @@ module.exports = async function MessageCommand(client, message, args) {
     .setDescription(
     cmd('?help', 'https://github.com/dubfib/cubesource/blob/main/help.js') + '\n' +
     cmd('?meme', 'https://github.com/dubfib/cubesource/blob/main/meme.js') + '\n' +
-    cmd('?rps',  'WORK IN PROGRESS') + '\n' +
+    cmd('?rps',  'https://github.com/dubfib/cubesource/blob/main/rps.js') + '\n' +
     cmd('?shitpost', 'https://github.com/dubfib/cubesource/blob/main/shitpost.js') + '\n' +
     cmd('?tictactoe', 'https://github.com/dubfib/cubesource/blob/main/tictactoe.js')
     )
