@@ -14,7 +14,7 @@ module.exports = async function MessageCommand(client, message, args) {
     cmd('?rps',  'Play RPS vs AI') + '\n' +
     cmd('?shitpost', 'Get a random shitpost') + '\n' +
     cmd('?tictactoe', 'Play TTT vs AI') + '\n' +
-    cmd('?blackjack', 'Play Blackjack vs AI')
+    cmd('?blackjack', 'Play BJ vs AI')
     )
     .setTimestamp()
     .setFooter({ text: 'The Cube'})
